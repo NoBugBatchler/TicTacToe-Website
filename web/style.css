@@ -16,88 +16,97 @@
 -------------*/
 
 ::-webkit-scrollbar {
-      width: 12px;
+	width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-      background-color: rgba(127, 127, 127, 1);
+	background-color: rgba(127, 127, 127, 1);
 }
 
 ::-webkit-scrollbar-thumb {
-      background-color: rgba(56, 56, 56, 1);
+	background-color: rgba(56, 56, 56, 1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-      background: rgb(38, 38, 38);
+	background: rgb(38, 38, 38);
 }
 
 body {
-      background-color: #000;
-      text-align: center;
-      color: #fff;
-      font-family: "Cascadia Mono";
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	font-family: "Cascadia Mono";
 }
 
 .typewrite {
-      font-size: 50px;
+	font-size: 50px;
 }
 
 .typewrapper {
-      margin-top: 5em;
+	margin-top: 5em;
+}
+
+.header-right {
+	float: right;
+}
+
+.header-left {
+	float: left;
 }
 
 * {
-      padding: 0;
-      margin: 0;
-      color: #fff;
-      text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
 }
 
 nav {
-      text-align: left;
-      font-size: 23px;
-      margin-top: 10px;
-      margin-left: 15px;
+	text-align: left;
+	font-size: 23px;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 main {
-      margin-top: 3cm;
-      font-size: 25px;
+	margin-top: 3cm;
+	font-size: 25px;
 }
 
 #button {
-      --padding: 30px;
-      background-color: rgb(24, 24, 25);
-      width: 200px;
-      padding-top: var(--padding);
-      padding-bottom: var(--padding);
-      padding-left: var(--padding);
-      padding-right: var(--padding);
-      border-radius: 10px;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      justify-items: center;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      font-size: 30px;
+	--padding: 30px;
+	background-color: rgb(24, 24, 25);
+	width: 200px;
+	padding-top: var(--padding);
+	padding-bottom: var(--padding);
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+	border-radius: 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 30px;
 }
 
 .credits #creditheader {
-      margin-top: 125px;
-      font-size: 40px;
+	margin-top: 125px;
+	font-size: 40px;
 }
 
 .credits ul {
-      display: inline-block;
-      text-align: left;
-      list-style: none;
-      font-size: 25px;
-      margin-top: 40px;
+	display: inline-block;
+	text-align: left;
+	list-style: none;
+	font-size: 25px;
+	margin-top: 40px;
 }
 
 .credits ul li a {
-      font-weight: 500;
+	font-weight: 500;
 }
