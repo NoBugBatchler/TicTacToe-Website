@@ -3,9 +3,9 @@
 	<head>
 		<!--- OpenGraph --->
 		<og>
-			<meta name="og:title" content="TicTacToe ToS" />
+			<meta name="og:title" content="TicTacToe Servers" />
 			<meta name="og:site_name" content="TicTacToe.DNAScanner.de" />
-			<meta name="og:url" content="https://tictactoe.dnascanner.de/tos" />
+			<meta name="og:url" content="https://tictactoe.dnascanner.de/servers" />
 			<meta name="og:description" content="Hey, feel free to check out my TicTacToe project!" />
 			<meta name="og:type" content="website" />
 			<meta name="og:image" content="https://dnascanner.de/assets/icon/1024x1024.png" />
@@ -13,7 +13,7 @@
 		</og>
 
 		<!--- Controls --->
-		<title>TicTacToe ToS</title>
+		<title>TicTacToe Servers</title>
 		<meta name="description" content="Hey, feel free to check out my TicTacToe project!" />
 		<meta name="robots" content="index, follow" />
 		<meta http-equiv="expires" content="10800" />
@@ -22,6 +22,7 @@
 		<!--- Links --->
 		<link rel="stylesheet" href=".\web\style.css" />
 		<script src=".\web\script.js"></script>
+		<script src=".\web\servers.js"></script>
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 	</head>
 	<body>
@@ -34,24 +35,23 @@
 		</nav>
 		<div class="typewrapper">
 			<h1>
-				<a class="typewrite">Terms of Service</a><br />
-				<h2>(Applying by any sort of Server-Interaction)</h2>
+				<a href="" class="typewrite">Verified Server</a><br />
+				<h2>(Click a Server to copy its address)</h2>
 			</h1>
 		</div>
 
 		<main>
 			<h4>
-				<li>Your IP-Address is stored in a database while you're logged in</li>
-				<li>Giving away your LoginID may end up in giving other people access to private information</li>
-				<li>You are automatically being timeouted after not interacting with the server for 5 minutes</li>
-				<li>
-					Using servers, which are not mentioned as <i>safe-to-use</i> on our <i><a href="./servers">server list</a></i> are not recommended to play on
-				</li>
+				<li><a id="server-1" onclick="copyAddress(this.id)" data-address="dnascanner.dynv6.net:3000" class="cursor--default">DNA's TicTacToe Server</a></li>
 			</h4>
+			<br>
 		</main>
 		<div class="credits">
 			<h1 id="creditheader">Credits</h1>
-			<ul id="">
+			<ul>
+				<li>
+					<a href="https://discord.com/users/45474547444755756465">Submit a Server (Message)</a>
+				</li>
 				<li>
 					Snake:
 					<a href="https://dnascanner.de">&copy;DNAScanner</a>
